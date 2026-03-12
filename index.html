@@ -53,7 +53,8 @@
         <h1>Catalogo Libri</h1>
         <button class="btn btn-primary"> Aggiungi Libro</button>
     </div>
-    <div class="p-3">
+
+    <div class="p-3 d-block d-lg-flex">
         <table class="table caption-top">
             <thead>
                 <tr>
@@ -119,7 +120,7 @@
                     </td>
                 </tr>
 
-                 <tr>
+                <tr>
                     <td>Shining</td>
                     <td>
                         <span class="text-bg-success px-2 py-1 rounded-3 "> disponibile</span>
@@ -130,7 +131,7 @@
                     </td>
                 </tr>
 
-                 <tr class="table-secondary">
+                <tr class="table-secondary">
                     <td>La divina commedia</td>
                     <td>
                         <span class="text-bg-warning px-2 py-1 rounded-3 text-white">In prestito</span>
@@ -141,7 +142,7 @@
                     </td>
                 </tr>
 
-                 <tr>
+                <tr>
                     <td>Il torno di spade</td>
                     <td>
                         <span class="text-bg-success px-2 py-1 rounded-3 ">disponibile</span>
@@ -152,7 +153,7 @@
                     </td>
                 </tr>
 
-                 <tr class="table-secondary">
+                <tr class="table-secondary">
                     <td>Il mondo di Sofia </td>
                     <td>
                         <span class="text-bg-danger px-2 py-1 rounded-3 ">Non disponibile</span>
@@ -163,7 +164,7 @@
                     </td>
                 </tr>
 
-                 <tr>
+                <tr>
                     <td>Le cronache di Narnia: il leone,la strega e l'armadio </td>
                     <td>
                         <span class="text-bg-warning px-2 py-1 rounded-3  text-white">In prestito</span>
@@ -174,7 +175,7 @@
                     </td>
                 </tr>
 
-                 <tr class="table-secondary">
+                <tr class="table-secondary">
                     <td>Il piccolo principe</td>
                     <td>
                         <span class="text-bg-success px-2 py-1 rounded-3 ">disponibile</span>
@@ -199,24 +200,72 @@
             </tbody>
         </table>
 
-        <div class="card">
-            <div class="card-header bg-secondary-subtle">Todo</div>
-            <div class="card-body">
-                <ul class="list-group">
-                    <li class="list-group-item">
-                        <input type="checkbox"> Chiamare segreteria
-                    </li>
-                    <li class="list-group-item">
-                        <input type="checkbox"> CMandare avvisi prestiti scaduti
-                    </li>
-                    <li class="list-group-item">
-                        <input type="checkbox"> Ordinare nuovi libri
-                    </li>
-                </ul>
+        <div>
+            <div class="card mb-4">
+                <div class="card-header bg-secondary-subtle"><h1>Todo</h1></div>
+                <div class="card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <input type="checkbox"> Chiamare segreteria
+                        </li>
+                        <li class="list-group-item">
+                            <input type="checkbox"> CMandare avvisi prestiti scaduti
+                        </li>
+                        <li class="list-group-item">
+                            <input type="checkbox"> Ordinare nuovi libri
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
 
-        
+            <div class="card">
+                <div class="card-header bg-secondary-subtle"><h1>F.A.Q.</h1></div>
+                <div class="card-body">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item ">
+                            <p class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Come aggiungere un nuovo libro?
+                                </button>
+                            </p>
+                            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample"
+                                style="">
+                                <div class="accordion-body">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item ">
+                            <p class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Come posso accedere all;anagrafica utenti?
+                                </button>
+                            </p>
+                            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample"
+                                style="">
+                                <div class="accordion-body">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item ">
+                            <p class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Posso usare questa dashboard da mobile?
+                                </button>
+                            </p>
+                            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample"
+                                style="">
+                                <div class="accordion-body">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
     </div>
 
